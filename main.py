@@ -19,7 +19,7 @@ headers = {
 @bot.event
 async def on_ready():
     print(f"We have logged in as {bot.user}")
-    channel = bot.get_channel('your_channel_id')  # replace with your channel id
+    channel = bot.get_channel('')  # replace with your channel id
     check_prayer_time.start(channel)
 
 
